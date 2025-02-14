@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres_catalogo
+    environment:
+      POSTGRES_USER: bruno
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: catalogodb
+    ports:
+      - 5432:5432
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
