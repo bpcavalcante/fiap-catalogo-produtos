@@ -1,0 +1,3 @@
+nome,descricao,preco,quantidadeEstoque,categoria,fornecedor,ativo
+Nikolly,Descricao 1,10.0,100,Categoria 1,Fornecedor 1,true
+Bruno 2,Descricao 2,20.0,50,Categoria 2,Fornecedor 2,true
