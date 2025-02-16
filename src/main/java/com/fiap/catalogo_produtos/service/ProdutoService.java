@@ -17,8 +17,7 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class ProdutoService {
 
-    @Autowired
-    private ProdutoRepository produtoRepository;
+    private final ProdutoRepository produtoRepository;
     private final JobLauncher jobLauncher;
     private final Job produtoJob;
 

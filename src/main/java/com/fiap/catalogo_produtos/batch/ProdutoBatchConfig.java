@@ -40,7 +40,7 @@ public class ProdutoBatchConfig {
 
     @Bean
     public ItemProcessor<Produto, Produto> processor() {
-        return produto -> produto;  // Nenhum processamento específico por enquanto
+        return produto -> produto;
     }
 
     @Bean
